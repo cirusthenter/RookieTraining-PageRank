@@ -11,8 +11,8 @@
 #define STEPS 100000000
 
 // argv でやる必要もない気がしている
-// #define GRAPH_FILE "simple.digraph"
-#define GRAPH_FILE "p2p-Gnutella04.txt"
+#define GRAPH_FILE "simple.digraph"
+// #define GRAPH_FILE "p2p-Gnutella04.txt"
 
 Digraph read_graph(std::string path)
 {

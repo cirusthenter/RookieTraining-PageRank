@@ -40,7 +40,7 @@ g++ pagerank.cpp -o ./pagerank
 ## やってみた感想
 [p2p-Gnutella04.txt](https://snap.stanford.edu/data/p2p-Gnutella04.html) （10876ノード、39994エッジ）で1000万ステップすると10秒くらい。1億ステップすると1分34秒でした。
 
-NetworkX のライブラリで計算した PageRank では、たとえば最後の3つは
+NetworkX のライブラリで計算した PageRank では、（`python3 pagerank.py`で実行できます）たとえば最後の3つは
 
 ```
 10876: 5.7483912987066724e-05

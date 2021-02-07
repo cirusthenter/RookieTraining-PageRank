@@ -1,7 +1,7 @@
 import networkx as nx
 
-# GRAPH_FILE = "simple.digraph"
-GRAPH_FILE = "p2p-Gnutella04.txt"
+GRAPH_FILE = "simple.digraph"
+# GRAPH_FILE = "p2p-Gnutella04.txt"
 
 g = nx.DiGraph()
 f = open(GRAPH_FILE, "r")
